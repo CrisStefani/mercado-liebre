@@ -11,8 +11,8 @@ const formattedPort = (() => {
 app.use(express.static('public'));
 
 
-app.listen(formattedPort, () =>{
-    console.log('Servidor funcionando en puerto ' + formattedPort);
+app.listen(process.env.PORT || 3000 , () =>{
+    console.log('Servidor funcionando en puerto ');
 });
 
 
