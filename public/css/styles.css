@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+   }
+   .main-header{
+      background-color: #eac926 ;
+      padding: 20px;
+   }
+  
+   .hamburguer-button{
+     background-color: #03264c;
+     color: white;
+     display: block;
+     max-width: 50px;
+     padding: 15px 0;
+     border-radius: 8px;
+     text-align: center;
+     font-size: 18px;
+     margin: auto;
+   }
+   .logo{
+     width: 200px;
+   }
+   .copy-header{
+     font-weight: 400;
+     text-align: center;
+   }
+   .main-navbar{
+     display: none;
+   }
+   .main-navbar ul { 
+     list-style: none;
+     margin: 0;
+     padding: 0;
+   }
+  
+   .main-navbar a {
+      text-decoration: none;
+      color: #222222;
+      display: inline-block;
+      padding: 5px 0;
+       font-size: 17px;
+   }
+   div.last-visit,
+   div.offers{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+   article div.main-article{
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: baseline;
+       border-top: 1px solid #ebebeb;
+       position: relative;
+       padding: 20px;
+   }
+   
+   .price{
+       font-size: 18px;
+       width: 30%;
+   }
+   
+   .discount,
+   .description{
+       font-size: 16px;
+       font-weight: normal;
+       
+   }
+  
+   .discount{
+       width: 70%;
+   }
+   
+   .description{
+       margin-top: 20px;
+   }
+   
+   h3,
+   .description{
+       color: #666;
+   }
+   
+   section.banner img{
+       width: 100%;
+       display: block;
+   }
+   
+   main{
+       width: 90%;
+       margin: 0 auto;
+   }
+   
+   main section h3{
+       margin: 20px 0px;
+   }
+   
+   main section article{
+       background-color: #fff;
+       margin: 10px 0px;
+   }
+   
+   main section article img{
+       display: block;
+       width: 100%;
+   }
+   
+   main section article i,
+   .discount{
+       color: #39b54a;
+   }
+   
+   main section article i{
+       display: block;
+       font-size: 16px;
+       padding: 5px;
+       width: 30px;
+       height: 30px;
+       border: 1px solid #39b54a;
+       background-color: #FFF;
+       border-radius: 50%;
+       position: absolute;
+       right: 20px;
+       top: -15px;
+   }
+   
+   footer{
+       background-color: #fff;
+       color: #666;
+       padding: 20px 5%;
+       text-align: center;
+       justify-content: center;
+   }
+   
+   footer article{
+       margin: 20px 0px;
+   }
+   
+   footer i{
+       color: #1259c3;
+   }
+
+   /*sector para formulario*/
+.register{
+padding: 20px;
+background-color: #ebebeb;
+width: 100%;
+font-weight: bold;
+}
+
+
+
+.login input,
+.register input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.login input[type='submit'],
+.register input[type='submit']{
+    color: #FFF;
+    background-color: #0044AA;  
+    border-radius: 5px;
+}
+
+.login input[type='submit']:hover,
+.register input[type='submit']:hover{
+    background-color: #0022AA;
+}
+
+.register input[type='reset']{
+    color: #FFF;
+    background-color: #AA0044;
+}
+
+.register input[type='reset']:hover{
+    background-color: #CC1155;
+}
+
+div.profile{
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.profile input,
+div.profile label{
+    width: auto;
+    width: auto;
+}
+
+div.interests{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.interests div{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+div.interests div input,
+div.interests div label{
+    width: auto;
+}
+
+div.interests div input{
+    margin: 20px;
+}
+
+.login{
+    padding: 20px 20px 20px 20px;
+    background-color: #ebebeb;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+button{
+    background-color: #03264c;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    width: 80%;    
+}
+button:hover{
+  background-color: #0022AA;
+}
+.divfoot{
+    background-color: #fff;
+    color: #666;
+    padding: 20px 5%;
+    text-align: center;
+}
+
+   @media (min-width: 768px){
+  .main-header-top-bar{
+    
+    display: flex;
+    justify-content: space-between;
+  }
+    .copy-header{
+      max-width: 350px;
+      text-align: right;
+        }
+        .hamburguer-button{
+          display: none;
+        }
+        .main-navbar{
+          display: flex;
+          justify-content: space-between;
+  
+        }
+        .main-navbar ul {
+          display: flex;
+        }
+        .main-navbar li {
+          margin: 0 5px;
+          font-size: 18px;
+          
+        }
+     main section article{
+      
+     }
+   }
+
+
+
+   @media (min-width: 1200px){
+     .logo{
+       width: 250px;
+     }
+  .main-header-top-bar .main-navbar{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .main-header-top-bar{
+    align-items: center;
+    
+  }
+  .copy-header{
+    max-width: none;
+    font-weight: 400;
+    font-size: 22;
+    margin: 0;
+    
+      }
+    .main-navbar{
+      margin-top: 40px;
+      }
+  .main-navbar li {
+    margin: 0 10px;
+  }
+  .main-navbar a {
+    font-size: 19px;
+  
+  }
+  footer{
+    display: flex;
+
+  }
+  footer article{
+    width: 300px;
+  }
+  .divfoot{
+    text-align: left;
+  }
+  footer i:hover{
+    color: #eac926 ;
+  }
+   }
