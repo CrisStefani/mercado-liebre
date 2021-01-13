@@ -12,7 +12,7 @@ app.use(express.static('public'));
 
 
 app.listen(process.env.PORT || 3000 , () =>{
-    console.log('Servidor funcionando en puerto ');
+    console.log('Servidor funcionando en puerto 3000');
 });
 
 
