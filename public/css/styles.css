@@ -69,7 +69,8 @@
    .discount,
    .description{
        font-size: 16px;
-       font-weight: normal;
+       font-weight: bold;
+       
        
    }
   
@@ -94,6 +95,7 @@
    section.banner img{
        width: 100%;
        display: block;
+       
    }
    
    main{
