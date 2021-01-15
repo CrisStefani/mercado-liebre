@@ -83,13 +83,8 @@ body{
  
  .description{
      margin-top: 20px;
-     visibility: hidden;
-     transition: all .5s;
- }
- .description:hover{
-  visibility: visible;
-  
- }
+     }
+ 
  h3,
  .description{
      color: #666;
@@ -109,7 +104,20 @@ body{
  main section h3{
      margin: 20px 0px;
  }
- 
+ main article{
+   transition: all .5s ease-in;
+ }
+
+ main article .description{
+height: 0px;
+overflow: hidden;
+
+ }
+main article:hover .description{
+  height: 40px;
+  overflow: auto;
+}
+
  main section article{
      background-color: #fff;
      margin: 10px 0px;
