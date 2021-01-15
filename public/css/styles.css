@@ -1,164 +1,167 @@
 *{
-    box-sizing: border-box;
-  }
-  body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    
-   }
-   .main-header{
-      background-color: #eac926 ;
-      padding: 20px;
-   }
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 0%;
   
-   .hamburguer-button{
-     background-color: #03264c;
-     color: white;
-     display: block;
-     max-width: 50px;
-     padding: 15px 0;
-     border-radius: 8px;
-     text-align: center;
-     font-size: 18px;
-     margin: auto;
-   }
-   .logo{
-     width: 200px;
-   }
-   .copy-header{
-     font-weight: 400;
-     text-align: center;
-   }
-   .main-navbar{
-     display: none;
-   }
-   .main-navbar ul { 
-     list-style: none;
-     margin: 0;
-     padding: 0;
-   }
-  
-   .main-navbar a {
-      text-decoration: none;
-      color: #222222;
-      display: inline-block;
-      padding: 5px 0;
-       font-size: 17px;
-   }
-   div.last-visit,
-   div.offers{
-       display: flex;
-       flex-wrap: wrap;
-   }
-   
-   article div.main-article{
-       width: 100%;
-       display: flex;
-       flex-wrap: wrap;
-       align-items: baseline;
-       border-top: 1px solid #ebebeb;
-       position: relative;
-       padding: 15px;
-   }
-   
-   .price{
-       font-size: 18px;
-       width: 30%;
-   }
-   
-   .discount,
-   .description{
-       font-size: 16px;
-       font-weight: bold;
-       
-       
-   }
-  
-   .discount{
-       width: 70%;
-   }
-   
-   .description{
-       margin-top: 20px;
-       visibility: hidden;
-       transition: all .5s;
-   }
-   .description:hover{
-    visibility: visible;
-    
-   }
-   h3,
-   .description{
-       color: #666;
-   }
-   
-   section.banner img{
-       width: 100%;
-       display: block;
-       
-   }
-   
-   main{
-       width: 90%;
-       margin: 0 auto;
-   }
-   
-   main section h3{
-       margin: 20px 0px;
-   }
-   
-   main section article{
-       background-color: #fff;
-       margin: 10px 0px;
-   }
-   
-   main section article img{
-       display: block;
-       width: 100%;
-   }
-   main section article:hover{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-   }
-   main section article i,
-   .discount{
-       color: #39b54a;
-   }
-   
-   main section article i{
-       display: block;
-       font-size: 16px;
-       padding: 5px;
-       width: 30px;
-       height: 30px;
-       border: 1px solid #39b54a;
-       background-color: #FFF;
-       border-radius: 50%;
-       position: absolute;
-       right: 20px;
-       top: -15px;
-       transition: .4s all
-   }
-  
-   main section article i:hover{
-     transform: rotate(360deg);
-   }
-   footer{
-       background-color: #fff;
-       color: #666;
-       padding: 20px 5%;
-       text-align: center;
-       justify-content: center;
-   }
-   
-   footer article{
-       margin: 20px 0px;
-   }
-   
-   footer i{
-       color: #1259c3;
-   }
+ }
+ .main-header{
+    background-color: #eac926 ;
+    padding: 20px;
+ }
 
-   /*sector para formulario*/
+ .hamburguer-button{
+   background-color: #03264c;
+   color: white;
+   display: block;
+   max-width: 50px;
+   padding: 15px 0;
+   border-radius: 8px;
+   text-align: center;
+   font-size: 18px;
+   margin: auto;
+ }
+ .logo{
+   width: 200px;
+ }
+ .copy-header{
+   font-weight: 400;
+   text-align: center;
+ }
+ .main-navbar{
+   display: none;
+ }
+ .main-navbar ul { 
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ .main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+     font-size: 17px;
+ }
+ .last-visit, .offers{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+ }
+ 
+ article div.main-article{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  border-top: 1px solid #ebebeb;
+  position: relative;
+  padding: 15px;
+}
+ 
+ .price{
+     font-size: 18px;
+     width: 30%;
+ }
+ 
+ .discount,
+ .description{
+     font-size: 16px;
+     font-weight: bold;
+     
+     
+ }
+
+ .discount{
+     width: 70%;
+ }
+ 
+ .description{
+     margin-top: 20px;
+     visibility: hidden;
+     transition: all .5s;
+ }
+ .description:hover{
+  visibility: visible;
+  
+ }
+ h3,
+ .description{
+     color: #666;
+ }
+ 
+ section.banner img{
+     width: 100%;
+     display: block;
+     
+ }
+ 
+ main{
+     width: 90%;
+     margin: 0 auto;
+ }
+ 
+ main section h3{
+     margin: 20px 0px;
+ }
+ 
+ main section article{
+     background-color: #fff;
+     margin: 10px 0px;
+ }
+ 
+ main section article img{
+     display: block;
+     width: 100%;
+ }
+ main section article:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+ }
+ main section article i,
+ .discount{
+     color: #39b54a;
+ }
+ 
+ main section article i{
+     display: block;
+     font-size: 16px;
+     padding: 5px;
+     width: 30px;
+     height: 30px;
+     border: 1px solid #39b54a;
+     background-color: #FFF;
+     border-radius: 50%;
+     position: absolute;
+     right: 20px;
+     top: -15px;
+     transition: .4s all
+ }
+
+ main section article i:hover{
+   transform: rotate(360deg);
+ }
+ footer{
+     background-color: #fff;
+     color: #666;
+     padding: 20px 5%;
+     text-align: center;
+     justify-content: center;
+ }
+ 
+ footer article{
+     margin: 20px 0px;
+ }
+ 
+ footer i{
+     color: #1259c3;
+ }
+
+ /*sector para formulario*/
 .register{
 padding: 20px;
 background-color: #ebebeb;
@@ -170,291 +173,309 @@ font-weight: bold;
 
 .login input,
 .register input{
-    width: 100%;
-    padding: 10px;
-    margin: 20px 0px;
-    border-radius: 5px;
-    border: 0px;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 0px;
 }
 
 .login input[type='submit'],
 .register input[type='submit']{
-    color: #FFF;
-    background-color: #0044AA;  
-    border-radius: 5px;
+  color: #FFF;
+  background-color: #0044AA;  
+  border-radius: 5px;
 }
 
 .login input[type='submit']:hover,
 .register input[type='submit']:hover{
-    background-color: #0022AA;
+  background-color: #0022AA;
 }
 
 .register input[type='reset']{
-    color: #FFF;
-    background-color: #AA0044;
+  color: #FFF;
+  background-color: #AA0044;
 }
 
 .register input[type='reset']:hover{
-    background-color: #CC1155;
+  background-color: #CC1155;
 }
 
 div.profile{
-    display: block;
-    align-items: center;
-    justify-content: space-around;
+  display: block;
+  align-items: center;
+  justify-content: space-around;
 }
 
 div.profile input,
 div.profile label{
-    width: auto;
-    width: auto;
+  width: auto;
+  width: auto;
 }
 
 div.interests{
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 div.interests div{
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 div.interests div input,
 div.interests div label{
-    width: auto;
+  width: auto;
 }
 
 div.interests div input{
-    margin: 20px;
+  margin: 20px;
 }
 
 .login{
-    padding: 20px 20px 20px 20px;
-    background-color: #ebebeb;
-    width: 100%;
-    font-weight: bold;
+  padding: 20px 20px 20px 20px;
+  background-color: #ebebeb;
+  width: 100%;
+  font-weight: bold;
 
 }
 
 button{
-    background-color: #03264c;
-    color: white;
-    display: block;
-    padding: 5px 10px;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 16px;
-    margin: auto;
-    width: 80%;    
+  background-color: #03264c;
+  color: white;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  margin: auto;
+  width: 80%;    
 }
 button:hover{
-  background-color: #0022AA;
+background-color: #0022AA;
 }
 .divfoot{
-    background-color: #fff;
-    color: #666;
-    padding: 20px 5%;
-    text-align: center;
-}
-
-
-
-body {
-  background: #292826;
+  background-color: #fff;
+  color: #666;
+  padding: 20px 5%;
+  text-align: center;
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
 }
 
 .container {
-  padding: 3rem;
-  width: 400px;
+padding: 3rem;
+width: 400px;
 }
 
 input[type="search"] {
-  -webkit-appearance: none !important;
-  background-clip: padding-box;
-  background-color: white;
-  vertical-align: middle;
-  border-radius: 0.25rem;
-  border: 1px solid #e0e0e5;
-  font-size: 1rem;
-  width: 100%;
-  line-height: 2;
-  padding: 0.375rem 1.25rem;
-  -webkit-transition: border-color 0.2s;
-  -moz-transition: border-color 0.2s;
-  transition: border-color 0.2s;
+-webkit-appearance: none !important;
+background-clip: padding-box;
+background-color: white;
+vertical-align: middle;
+border-radius: 0.25rem;
+border: 1px solid #e0e0e5;
+font-size: 1rem;
+width: 100%;
+line-height: 2;
+padding: 0.375rem 1.25rem;
+-webkit-transition: border-color 0.2s;
+-moz-transition: border-color 0.2s;
+transition: border-color 0.2s;
 }
 
 input[type="search"]:focus {
-  transition: all 0.5s;
-  box-shadow: 0 0 40px #f9d442b9;
-  border-color: #f9d342;
-  outline: none;
+transition: all 0.5s;
+box-shadow: 0 0 40px #f9d442b9;
+border-color: #f9d342;
+outline: none;
 }
 
 form.search-form {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 label {
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: auto;
-  align-self: center;
-  margin-bottom: 0;
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: auto;
+align-self: center;
+margin-bottom: 0;
 }
 
 input.search-field {
-  margin-bottom: 0;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: auto;
-  align-self: center;
-  height: 51px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+margin-bottom: 0;
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: auto;
+align-self: center;
+height: 51px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
 }
 
 input.search-submit {
-  height: 51px;
-  margin: 0;
-  padding: 1rem 1.3rem;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-  font-family: "Font Awesome 5 Free";
-  font-size: 1rem;
+height: 51px;
+margin: 0;
+padding: 1rem 1.3rem;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border-top-right-radius: 0.25rem;
+border-bottom-right-radius: 0.25rem;
+font-family: "Font Awesome 5 Free";
+font-size: 1rem;
 }
 
 .screen-reader-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+clip: rect(1px, 1px, 1px, 1px);
+position: absolute !important;
+height: 1px;
+width: 1px;
+overflow: hidden;
 }
 
 .button {
-  display: inline-block;
-  font-weight: 600;
-  font-size: 0.8rem;
-  line-height: 1.15;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  background: #f9d342;
-  color: #292826;
-  border: 1px solid transparent;
-  vertical-align: middle;
-  text-shadow: none;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
+display: inline-block;
+font-weight: 600;
+font-size: 0.8rem;
+line-height: 1.15;
+letter-spacing: 0.1rem;
+text-transform: uppercase;
+background: #f9d342;
+color: #292826;
+border: 1px solid transparent;
+vertical-align: middle;
+text-shadow: none;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+transition: all 0.2s;
 }
 
 .button:hover,
 .button:active,
 .button:focus {
-  cursor: pointer;
-  background: #d4b743;
-  color: #292826;
-  outline: 0;
+cursor: pointer;
+background: #d4b743;
+color: #292826;
+outline: 0;
 }
 
 
 
-   @media (min-width: 768px){
-  .main-header-top-bar{
-    
-    display: flex;
-    justify-content: space-between;
-  }
-    .copy-header{
-      max-width: 350px;
-      text-align: right;
-        }
-        .hamburguer-button{
-          display: none;
-        }
-        .main-navbar{
-          display: flex;
-          justify-content: space-between;
+ @media (min-width: 768px){
+.main-header-top-bar{
   
-        }
-        .main-navbar ul {
-          display: flex;
-        }
-        .main-navbar li {
-          margin: 0 5px;
-          font-size: 18px;
-          
-        }
-     main section article{
-      box-shadow: 0px 0px 10px rgb(100, 100, 100);
-     }
-     .wrapper{
-       display: block;
-     }
-    .logo{
-      width: 190px;
-    }
-    .container{
-      width: 325px;
-    } 
-   }
-
-
-
-   @media (min-width: 1200px){
-     .logo{
-       width: 250px;
-     }
-  .main-header-top-bar .main-navbar{
-    max-width: 1200px;
-    margin: auto;
-  }
-  .main-header-top-bar{
-    align-items: center;
-    
-  }
+  display: flex;
+  justify-content: space-between;
+}
   .copy-header{
-    max-width: none;
-    font-weight: 400;
-    font-size: 22;
-    margin: 0;
+    max-width: 350px;
+    text-align: right;
+      }
+      .hamburguer-button{
+        display: none;
+      }
+      .main-navbar{
+        display: flex;
+        justify-content: space-between;
+
+      }
+      .main-navbar ul {
+        display: flex;
+      }
+      .main-navbar li {
+        margin: 0 5px;
+        font-size: 18px;
+        
+      }
+   main section article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   }
+   .wrapper{
+     display: block;
+   }
+  .logo{
+    width: 190px;
+  }
+  .container{
+    width: 325px;
+  } 
+  .last-visit, .offers {
+    flex-direction: row;
+    justify-content: space-between;
     
-      }
-    .main-navbar{
-      margin-top: 40px;
-      }
-  .main-navbar li {
-    margin: 0 10px;
-  }
-  .main-navbar a {
-    font-size: 19px;
-  
-  }
-  footer{
-    display: flex;
+    flex-wrap: wrap;
 
   }
-  footer article{
-    width: 300px;
+  main section article{
+    width: 49%;
   }
-  .divfoot{
-    text-align: left;
+  main section h3{
+    width: 100%;
   }
-  footer i:hover{
-    color: #eac926 ;
-  }
+ }
+
+
+
+ @media (min-width: 1200px){
+   .logo{
+     width: 250px;
    }
+.main-header-top-bar .main-navbar{
+  max-width: 1200px;
+  margin: auto;
+}
+.main-header-top-bar{
+  align-items: center;
+  
+}
+.copy-header{
+  max-width: none;
+  font-weight: 400;
+  font-size: 22;
+  margin: 0;
+  
+    }
+  .main-navbar{
+    margin-top: 40px;
+    }
+.main-navbar li {
+  margin: 0 10px;
+}
+.main-navbar a {
+  font-size: 19px;
+
+}
+footer{
+  display: flex;
+
+}
+footer article{
+  width: 300px;
+}
+.divfoot{
+  text-align: left;
+}
+footer i:hover{
+  color: #eac926 ;
+}
+
+.last-visit, .offers {
+  flex-direction: row;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+
+}
+main section article{
+  width: 24%;
+}
+ }
